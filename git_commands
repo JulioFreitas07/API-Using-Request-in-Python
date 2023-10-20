@@ -30,3 +30,5 @@ git checkout -b: usa-se para fazer os dois ultimos comandos acima de uma vez só
 
 git commit -a -m: outra opção de comitar
 
+git merge: serve para incorporar as mudanças de outra branch
+           sintaxe: git merge 'nome da branch que gerou mudanças'
