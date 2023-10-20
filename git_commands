@@ -5,5 +5,28 @@ git status: mostra o que não está ainda adicionado ao projeto, as mundanças f
 
 git add: ele envia a mudança para ser comitada, passa para um novo estágio com a finalidade de ser incluso
          na versão original do código. Sintaxe: git add 'nome do arquivo'
+         obs: para dar add em todas as alterações, basta usar 'git add .'
 
+git commit: usado para salvar as alterações feitas, e enviar com uma mensagem dizendo o que foi feito.
+            sintaxe: git commit -m "mensagem descrevendo a alteração"
+
+Para fazer login e poder commitar no projeto:
+            git config --global user.email 'emailcontagit'
+            git config --global user.name 'nomecontagit'
+
+git log: informa o que foi alterado no projeto, exibindo quem alterou e a mensagem. Também informa o 'id'
+         do commit, para que possamos fazer alterações mais avançadas, como por exemplo mudar o commit.
+
+git branch: esse comando exibe todas as branchs do projeto, ou seja, todas as versões do projeto.
+             - Para criar uma branch nova: basta adicionar um nome após 'escrever git branch'
+             - sintaxe: git branch 'nome_da_branch'
+
+git checkout: usa-se para se movimentar entre as branchs.
+              sintaxe: git checkout 'nome_da_branch'
+
+git checkout -b: usa-se para fazer os dois ultimos comandos acima de uma vez só, ou seja, você cria a nova branch
+                 e já vai direto pra ela.
+                 sintaxe: git checkout -b 'nome_da_nova_branch'
+
+git commit -a -m: outra opção de comitar
 
