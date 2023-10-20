@@ -1,0 +1,9 @@
+git init: inicia um repositório vazio no diretório do qual o comando é dado. Cria uma pasta ocultacom documentos
+          necessário para que o versionamento do código funcione. (usa-se no inicio)
+
+git status: mostra o que não está ainda adicionado ao projeto, as mundanças feitas que não foram comitadas
+
+git add: ele envia a mudança para ser comitada, passa para um novo estágio com a finalidade de ser incluso
+         na versão original do código. Sintaxe: git add 'nome do arquivo'
+
+

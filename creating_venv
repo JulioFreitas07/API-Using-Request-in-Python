@@ -1,0 +1,17 @@
+para criar uma venv no linux:
+
+    1. baixar o pacote 'virtualenv': sudo apt install python3-virtualenv
+    2. criar a venv: virtualenv 'pasta do projeto'/'nome da venv'
+        exemplo: virtualenv projectapi/venv     obs:normalmente usa-se 'venv' para nomear a venv
+    3. ativar a venv: source 'pasta do projeto'/'nome da venv'/bin/activate
+        exemplo: source projectapi/venv/bin/activate
+    4. para desativar/sair da venv basta digitar no terminal: deactivate
+    5. para remover/deletar a venv: primeiro: saia da venv com o comando deactivate,
+                                    segundo: digite no terminal; rm -rf 'pasta do projeto'/'nome da venv/
+                                    exemplo:
+                                            '''
+                                                $ deactivate
+                                                $ rm -rf projectapi/venv/
+                                            '''
+
+
