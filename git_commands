@@ -33,5 +33,4 @@ git commit -a -m: outra opção de comitar
 git merge: serve para incorporar as mudanças de outra branch
            sintaxe: git merge 'nome da branch que gerou mudanças'
            obs: para puxar as atualizações da main, usa-se git merge origin main
-
-           atualização nova
+          
