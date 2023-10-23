@@ -1,0 +1,16 @@
+<DAR TODAS AS PERMISSÕES A UM DIRETÓRIO>
+sudo chmod 777 elasticsearch/
+    - O comando acima permite a leitura'r' escrita'w' e execução'x' do arquivo elasticsearch/
+    - Se eu quiser dar essa permissão a todos os usuários, tenho que usar o comando -R ao lado do 'chmod'
+
+
+
+
+<MUDAR O USÁRIO DO DIRETÓRIO>
+sudo chown juliofretaass:juliofreitaasss elasticsearch/
+    - O comando acima serve para mudar o usuário do diretório, no caso estou mudando o diretório do
+    usuário elasticsearch, ele estava como root, e no comando acima estou mudando ela para o usuário juliofreitaass
+
+    - Se eu quiser mudar todos  os usuários que tem no diretório, tenho que usar o comando -R ao lado do 'chown'
+        exemplo: sudo chown -R juliofretaass:juliofreitaasss elasticsearch/
+
